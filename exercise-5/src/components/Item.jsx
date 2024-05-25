@@ -1,16 +1,13 @@
-function Item(props){
-    const {name, class, des} = props;
+export const Item = (props) =>{
+    const { src, name, classes, des } = props;
     return (
-        <div>
-<div class="card">
-        <h4>{name}</h4>
-        <p>{class}</p>
-        <p>
-          {description}
-        </p>
-        <img src={src} alt={alt} />
-      </div>
+      <div>
+        <div class="card">
+          <img src={src}  />
+          <h4>{name}</h4>
+          <p>{classes}</p>
+          <p>{des}</p>
         </div>
-      
+      </div>
     );
 }

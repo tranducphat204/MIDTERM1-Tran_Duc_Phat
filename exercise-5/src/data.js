@@ -7,25 +7,25 @@ import av4 from "./assets/4.png";
 export default data = [
   {
     name: "ding",
-    class: "C",
+    classes: "C",
     avt: av1,
     des: "soccer, tenis",
   },
   {
     name: "dong",
-    class: "A",
+    classes: "A",
     avt: av2,
     des: "piano",
   },
   {
     name: "dang",
-    class: "B",
+    classes: "B",
     avt: av3,
     des: "video games",
   },
   {
     name: "dung",
-    class: "D",
+    classes: "D",
     av4: av4,
     des: "i like all",
   },
